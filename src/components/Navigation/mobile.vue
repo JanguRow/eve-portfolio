@@ -25,51 +25,14 @@ const isOpen = ref(false);
                 </RouterLink>
             </li>
             <li>
-                <RouterLink to="/shop" @click="isOpen = !isOpen">
+                <a href="https://evekoskies-shop.bigcartel.com/" @click="isOpen = !isOpen">
                     <Shop class="mx-auto" />
-                </RouterLink>
+                </a>
             </li>
             <li>
                 <RouterLink to="/portfolio" @click="isOpen = !isOpen">
                     <Portfolio class="mx-auto" />
                 </RouterLink>
-                <!-- <ul class="flex flex-col items-center pt-4 font-bold text-white gap-4 text-lg">
-                    <li>
-                        <RouterLink to="/portfolio/editorial" @click="isOpen = !isOpen">
-                            Editorial
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/animation" @click="isOpen = !isOpen">
-                            Animation
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/publishing" @click="isOpen = !isOpen">
-                            Publishing
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/branding" @click="isOpen = !isOpen">
-                            Branding
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/personal" @click="isOpen = !isOpen">
-                            Personal
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/doodles" @click="isOpen = !isOpen">
-                            Doodles
-                        </RouterLink>
-                    </li>
-                    <li>
-                        <RouterLink to="/portfolio/chrochet" @click="isOpen = !isOpen">
-                            Crochet
-                        </RouterLink>
-                    </li>
-                </ul> -->
             </li>
             <li>
                 <a href="https://www.instagram.com/eve.dreamz/" target="_blank" @click="isOpen = !isOpen">

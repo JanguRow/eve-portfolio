@@ -26,9 +26,9 @@ const isHovered = useElementHover(dropDown)
                 </RouterLink>
             </li>
             <li>
-                <RouterLink to="/shop">
+                <a href="https://evekoskies-shop.bigcartel.com/">
                     <Shop />
-                </RouterLink>
+                </a>
             </li>
             <li ref="dropDown" class="relative">
                 <RouterLink to="/portfolio" class="flex item-center pb-4">
